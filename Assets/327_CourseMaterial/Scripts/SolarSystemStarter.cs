@@ -22,7 +22,7 @@ public class SolarSystemStarter : MonoBehaviour
 
     public float playrange = .25f;
 
-    public Note[] key =
+    private Note[] key =
     {
         new Note ("A", 3),
         new Note("B", 3),
@@ -31,9 +31,9 @@ public class SolarSystemStarter : MonoBehaviour
         new Note("E", 4),
         new Note("F#", 4),
         new Note("G#", 4),
-        new Note("A",4),
-        new Note("B", 4),
-        new Note("C#", 5) 
+        new Note("A",2),
+        new Note("B", 2),
+        new Note("C#", 3) 
     };
 
     public Slider[] anglesliders;
