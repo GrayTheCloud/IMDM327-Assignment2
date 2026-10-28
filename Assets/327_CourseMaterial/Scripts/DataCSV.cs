@@ -8,6 +8,7 @@ public struct BodyProperty
     public float distance;         
     public float initial_velocity; 
     public float radius;
+
 }
 
 public class DataCSV : MonoBehaviour
